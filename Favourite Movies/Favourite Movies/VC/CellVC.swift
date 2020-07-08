@@ -23,6 +23,7 @@ class CellVC: UITableViewCell {
         
         // Configure the view for the selected state
     }
+    
     func callCell(for Movie: moviesModel){
         movieImage.image = UIImage(named: Movie.movieName)
         movieName.text = Movie.movieName
